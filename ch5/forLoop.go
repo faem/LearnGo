@@ -14,4 +14,15 @@ func main() {
 	for i := 0; i <= 5; i++ {
 		fmt.Println(i)
 	}
+
+	//type 3 (array or other data types)
+	var x [5]int
+
+	for _,value:= range x{
+		fmt.Println(value)
+	}
+
+	for i,value:= range x{
+		fmt.Println("x[",i,"] = ",value)
+	}
 }
