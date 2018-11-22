@@ -1,3 +1,4 @@
+//copied from book
 package main
 
 import (
