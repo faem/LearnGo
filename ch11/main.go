@@ -1,9 +1,9 @@
 package main
 
 import (
+	u "LearnGO/ch11/util" //alias
 	"fmt"
 )
-import u "LearnGO/ch11/util" //alias
 
 func main(){
 	x := u.Min([]int{1,2,3,1,56,0,3})

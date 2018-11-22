@@ -2,6 +2,13 @@ package main
 
 import "fmt"
 
+//Global declaration, global variables can be unused
+var arr = []int{
+	1,
+	2,
+	3,
+}
+
 func main() {
 
 	//Declaration type 1
